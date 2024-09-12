@@ -19,9 +19,7 @@
         {!! Vite::content('resources/js/app.js') !!}
     </script>
 </head>
-
 <body class="font-sans antialiased dark:bg-black dark:text-white/50">
-
     <header class="grid grid-cols-2 items-center gap-2 py-10 lg:grid-cols-3">
         <nav class="-mx-3 flex flex-1 justify-end">
             <a href="{{ url('/') }}"
@@ -56,7 +54,7 @@
                 @else
                     <a href="{{ route('login') }}"
                         class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white">
-                        Log in
+                        Login
                     </a>
 
                     @if (Route::has('register'))
@@ -66,12 +64,12 @@
                         </a>
                     @endif
                 @endauth
-        </nav>
+            </nav>
         @endif
     </header>
 
     <main class="mt-6">
-        
+        @yield('content')
     </main>
 
     <footer class="py-16 text-center text-sm text-black dark:text-white/70">
