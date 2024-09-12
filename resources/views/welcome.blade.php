@@ -14,9 +14,11 @@
     <!-- Styles -->
     <style>
         {!! Vite::content('resources/css/app.css') !!}
+        {!! Vite::content('resources/css/tailwind.css') !!}
     </style>
     <script>
         {!! Vite::content('resources/js/app.js') !!}
+        {!! Vite::content('resources/js/bootstrap.js') !!}
     </script>
 </head>
 <body class="font-sans antialiased dark:bg-black dark:text-white/50">
