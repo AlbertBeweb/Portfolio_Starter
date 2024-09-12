@@ -9,26 +9,27 @@
 
 ## About Laravel v11.23.2 (PHP v8.3.6)
 
-git clone https://github.com/AlbertBeweb/Portfolio_Starter.git
-code ./Portfolio_Starter & exit
-composer update
-.env : 
+- git clone https://github.com/AlbertBeweb/Portfolio_Starter.git
+- code ./Portfolio_Starter & exit
+- composer update
 
-APP_NAME="Portfolio_Starter"
+- .env : 
 
-APP_LOCALE=fr
-APP_FALLBACK_LOCALE=fr
-APP_FAKER_LOCALE=fr_FR
+- APP_NAME="Portfolio_Starter"
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=Portfolio_Starter
-DB_USERNAME=root
-DB_PASSWORD=root
+- APP_LOCALE=fr
+- APP_FALLBACK_LOCALE=fr
+- APP_FAKER_LOCALE=fr_FR
 
-php artisan migrate
-php artisan serve
+- DB_CONNECTION=mysql
+- DB_HOST=127.0.0.1
+- DB_PORT=3306
+- DB_DATABASE=Portfolio_Starter
+- DB_USERNAME=root
+- DB_PASSWORD=root
+
+- php artisan migrate
+- php artisan serve
 
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
