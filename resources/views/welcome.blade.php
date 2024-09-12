@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'Laravel') }} | @yield('title')</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -71,7 +71,7 @@
     </header>
 
     <main class="mt-6">
-
+        
     </main>
 
     <footer class="py-16 text-center text-sm text-black dark:text-white/70">
