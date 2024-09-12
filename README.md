@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel v11.23.2 (PHP v8.3.6)
+## Laravel v11.23.2 (PHP v8.3.6)
 
 - git clone https://github.com/AlbertBeweb/Portfolio_Starter.git
 - code ./Portfolio_Starter & exit
